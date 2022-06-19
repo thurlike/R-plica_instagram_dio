@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: rgb(248, 248, 248);
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+label {
+    display: none;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.menu {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   padding: 35px;
+    background: white;
+    align-items: center;
+    border: .12rem solid rgb(207, 207, 207);
+    border-radius: .1rem;
+    
+    
+}
+
+#form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} 
+form > img{
+    padding: 0;
+    border-radius: 50px;
+    align-items: center;
+}
+
+
+form > button {
+    background: rgb(51, 175, 233);
+    border: none;
+    padding: 10px;
+    border-radius: .3rem;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.espaco{
+    padding-top: 25px;
+}
+form > button:hover {
+    
+    background-color: rgba(51, 175, 233, 0.644);
+    
+}
+
+
+
+.split div:nth-child(2) {
+    font-weight: 600;
+    padding: 0 6rem;
+    line-height: 0;
+    
+}
+
+.split div:nth-child(1), 
+.split div:nth-child(3) {
+    background: rgb(206, 205, 205);
+    height: .1rem;
+    width: 100%;    
+}
+.divtext{ 
+  padding-top:25px; 
+  width: auto;
+    align-items: center;
+    margin-top: 0px;
+    line-height: normal;
+    font-size: 15px;
+}
+
+
+.sessao {
+
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(51, 175, 233);
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+
+
+#forget {
+    font-size: 10px;
+}
+
+ul > li > a:hover {
+    color: rgb(33, 116, 224);
+}
+ul > li {
+    list-style: none;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+footer > img {
+    cursor: pointer;
+}
+
+
+#cellphone {
+    margin-left: -10rem;
+}
+
+
+
